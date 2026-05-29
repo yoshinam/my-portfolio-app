@@ -7,7 +7,7 @@ from streamlit_gsheets import GSheetsConnection
 # ページ設定
 st.set_page_config(page_title="ポートフォリオ推移", layout="wide")
 
-st.title("📈 ポートフォリオ時価総額¥n日々推移")
+st.title("📈 ポートフォリオ時価総額\n日々推移")
 
 # Googleスプレッドシートとの接続
 conn = st.connection("gsheets", type=GSheetsConnection)
